@@ -1,0 +1,16 @@
+version: "3"
+services:
+  workdb:
+    container_name: workdb
+    platform: linux/x86_64
+    image: mysql:8.0.32-debian
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=mydbpassword
+    volumes:
+      - ./workdir/data:/var/lib/mysql
+    networks:
+      - mybatis-multidb-net
+networks:
+  mybatis-multidb-net:

@@ -1,0 +1,12 @@
+create user tokyo@'%' identified by 'tokyo';
+grant all privileges on *.* to tokyo@'%';
+create user tokyo@localhost identified by 'tokyo';
+grant all privileges on *.* to tokyo@localhost;
+create user osaka@'%' identified by 'osaka';
+grant all privileges on *.* to osaka@'%';
+create user osaka@localhost identified by 'osaka';
+grant all privileges on *.* to osaka@localhost;
+create user japan@'%' identified by 'japan';
+grant all privileges on *.* to japan@'%';
+create user japan@localhost identified by 'japan';
+grant all privileges on *.* to japan@localhost;
