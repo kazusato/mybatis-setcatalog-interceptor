@@ -1,4 +1,4 @@
-package dev.kazusato.mybatismultidb.interceptor;
+package dev.kazusato.mybatismultidb.mybatis;
 
 import org.apache.ibatis.executor.statement.StatementHandler;
 import org.apache.ibatis.plugin.Interceptor;

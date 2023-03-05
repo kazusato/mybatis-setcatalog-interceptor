@@ -1,4 +1,4 @@
-package dev.kazusato.mybatismultidb.interceptor;
+package dev.kazusato.mybatismultidb.mybatis;
 
 public class CatalogHolder {
 

@@ -1,10 +1,10 @@
 package dev.kazusato.mybatismultidb.api;
 
 import dev.kazusato.mybatismultidb.dto.UserDto;
-import dev.kazusato.mybatismultidb.interceptor.CatalogHolder;
 import dev.kazusato.mybatismultidb.mapper.GeneralUserMapper;
 import dev.kazusato.mybatismultidb.mapper.OsakaUserMapper;
 import dev.kazusato.mybatismultidb.mapper.TokyoUserMapper;
+import dev.kazusato.mybatismultidb.mybatis.CatalogHolder;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

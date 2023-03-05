@@ -4,5 +4,10 @@ spring:
     url: ${DB_URL:dummy}
     username: ${DB_USERNAME:dummy}
     password: ${DB_PASSWORD:dummy}
+
 mybatis:
   config-location: classpath:mybatis-config.xml
+
+#server:
+#  servlet:
+#    context-path: /test
